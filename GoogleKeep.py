@@ -55,7 +55,7 @@ class Reader(object):
                 # Tuple unpacking
                 year, month, day = int(split[1]), int(split[3]), int(split[5])
 
-                if year > 3000 or month <= 12 or day <= 31:
+                if year < 3000 and month <= 12 and day <= 31:
 
                     print(year, month, day)
                     print(content,"\n")
