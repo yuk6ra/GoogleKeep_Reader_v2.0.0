@@ -30,7 +30,7 @@ class Reader(object):
         # find the keyword of query="Test"
         self.note = self.keep.find(query=self.date_type, labels=[self.keep.findLabel('TEST_Label')])
         # indicate the found memos
-        print(self.note)
+        # print(self.note)
 
     def google_keep_reader(self):
         # dict change
@@ -58,9 +58,9 @@ class Reader(object):
                 if year > 3000 or month <= 12 or day <= 31:
 
                     print(year, month, day)
-                    print(content)
+                    print(content,"\n")
                     # not Japan time zone
-                    print(str(note_data.timestamps.created),"\n")
+                    # print(str(note_data.timestamps.created),"\n")
 
                 else:
                     continue
@@ -68,6 +68,3 @@ class Reader(object):
 reader = Reader()
 reader.google_keep_searcher()
 reader.google_keep_reader()
-
-
-
