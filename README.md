@@ -2,9 +2,7 @@
 
 
 ## input
-
-!(https://github.com/yuki-imamura-all/GoogleKeep_Reader_v2.0.0/blob/master/test_gkeep.png)
-
+![test_gkeep](https://user-images.githubusercontent.com/59524938/72197545-cafad980-3465-11ea-90ca-73c942d83101.png)
 ## Output
 ```
 2020 1 8
